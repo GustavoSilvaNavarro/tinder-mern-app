@@ -1,3 +1,8 @@
+# Few Pics, How the web site looks!!
+![Captura 1](https://user-images.githubusercontent.com/66889974/117337506-d3093480-ae73-11eb-9ac7-d5583222d6a5.JPG)
+
+![Captura 2](https://user-images.githubusercontent.com/66889974/117338128-95f17200-ae74-11eb-84da-a8c311b6cf18.JPG)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
