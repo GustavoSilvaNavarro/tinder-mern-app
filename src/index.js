@@ -1,9 +1,13 @@
+//CALL MODULES AND METHODS
 import React from 'react';
 import ReactDOM from 'react-dom';
+
+//IMPORTING CSS CLASSES, COMPONENTS, METHOD AND FUNCTIONS
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//RENDERING TO THE FRONTEND
 ReactDOM.render(
   <React.StrictMode>
     <App />

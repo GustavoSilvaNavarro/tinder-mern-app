@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center; /*ALINEA EN EJE Y*/
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.header__logo {
+    object-fit: contain; /*MANTIENE EL ASPECT RATIO CUANDO SE DESEE ESCALAR A CUALQUIER TAMAÑO*/
+    height: 70px;
+}
+
+.header__icon {
+    padding: 20px;
+}

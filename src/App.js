@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+//CALL MODULES AND METHODS
+import React from 'react';
+
+//CALL CSS CLASS, METHODS AND FUNCTIONS
 import './App.css';
 
+//IMPORTING COMPONENTS
+import { Header } from './components/Header';
+import { TinderCards } from './components/TinderCards';
+import { SwipeButtons } from './components/SwipeButtons';
+
+//FRONTEND
 function App() {
+  //RENDERING TO THE FRONTEND
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //BEM class naming convention
+    <div>
+      {/* HEADER*/}
+      <Header />
+
+      {/* TINDER CARDS */}
+      <TinderCards />
+      
+      {/* SWIPE BUTTONS */}
+      <SwipeButtons />
     </div>
   );
 }
